@@ -1,1 +1,3 @@
 module Memorable
+
+end
