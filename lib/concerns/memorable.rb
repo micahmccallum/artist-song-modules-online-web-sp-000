@@ -1,5 +1,5 @@
 module Memorable
-  module InstanceMethods
+  module ClassMethods
 
     def reset_all
       all.clear
@@ -10,7 +10,7 @@ module Memorable
     end
   end
 
-  module ClassMethods
+  module InstanceMethods
 
     def initialize(name)
       self.class.all << self
