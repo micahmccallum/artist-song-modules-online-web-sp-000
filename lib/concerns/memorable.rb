@@ -1,4 +1,5 @@
 module Memorable
+  
   class InstanceMethods
     def reset_all
       all.clear
